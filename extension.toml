@@ -14,4 +14,4 @@ language = "Java"
 
 [grammars.haskell]
 repository = "https://github.com/saeschdivara/zed-java-lsp"
-commit = "33d34c080f260a47de3c2d4ad173547b5c65077e"
+commit = "e0ce4e98206d701d2cae394282c9621d573abfc8"
