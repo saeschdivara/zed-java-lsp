@@ -14,12 +14,12 @@ impl zed::Extension for JavaExtension {
         worktree: &zed::Worktree,
     ) -> Result<zed::Command> {
         let path = worktree
-            .which("nc")
-            .ok_or_else(|| "nc must be installed and available on your $PATH".to_string())?;
+            .which("java-language-server")
+            .ok_or_else(|| "java-language-server must be installed and available on your $PATH".to_string())?;
 
         Ok(zed::Command {
             command: path,
-            args: vec!["127.0.0.1".to_string(), "6005".to_string()],
+            args: vec![],
             env: Default::default(),
         })
     }
