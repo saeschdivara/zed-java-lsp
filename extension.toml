@@ -12,6 +12,6 @@ repository = "https://github.com/zed-industries/zed"
 name = "Java Language Server"
 language = "Java"
 
-[grammars.haskell]
-repository = "https://github.com/saeschdivara/zed-java-lsp"
-commit = "e0ce4e98206d701d2cae394282c9621d573abfc8"
+[grammars.java]
+repository = "https://github.com/tree-sitter/tree-sitter-java"
+commit = "99b29f1ed957b3b424b6e21f57bd21a9732a622a"
