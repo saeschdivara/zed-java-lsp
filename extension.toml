@@ -8,10 +8,10 @@ authors = [
 ]
 repository = "https://github.com/zed-industries/zed"
 
-[language_servers.hls]
-name = "Haskell Language Server"
-language = "Haskell"
+[language_servers.jlsp]
+name = "Java Language Server"
+language = "Java"
 
 [grammars.haskell]
-repository = "https://github.com/tree-sitter/tree-sitter-haskell"
-commit = "8a99848fc734f9c4ea523b3f2a07df133cbbcec2"
+repository = "https://github.com/saeschdivara/zed-java-lsp"
+commit = "33d34c080f260a47de3c2d4ad173547b5c65077e"
